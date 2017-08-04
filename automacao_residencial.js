@@ -22,6 +22,7 @@ function AlteraRele2(){
         document.getElementById("rele_2").innerHTML="<div class='rele2_desligado'></div>";
         document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Liga</a>";
     }
+}
 function AlteraRele3(){
     var estado_3 = document.getElementById("estado_3").innerHTML;
     if(estado_3 === "0"){
@@ -33,6 +34,7 @@ function AlteraRele3(){
         document.getElementById("rele_3").innerHTML="<div class='rele3_desligado'></div>";
         document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Liga</a>";
     }
+}
 function AlteraRele4(){
     var estado_4 = document.getElementById("estado_4").innerHTML;
     if(estado_4 === "0"){
