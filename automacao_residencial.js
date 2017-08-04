@@ -35,6 +35,7 @@ function AlteraRele3(){
         document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Liga</a>";
     }
 }
+
 function AlteraRele4(){
     var estado_4 = document.getElementById("estado_4").innerHTML;
     if(estado_4 === "0"){
